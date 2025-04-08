@@ -1,0 +1,24 @@
+/* Additional styles - keeping minimal as we're using bootstrap */
+pre {
+    min-height: 60px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 0;
+}
+
+.card {
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure code blocks are visible */
+pre.bg-dark {
+    background-color: #212529 !important;
+    color: #f8f9fa;
+    border: 1px solid #495057;
+}
